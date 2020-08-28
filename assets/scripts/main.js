@@ -1,7 +1,9 @@
 'use strict';
 
-// Test for main JavaScript file.
-console.log('This sentence is a test for my main JS file.');
+// Test main JavaScript file with numerical variable and mathematical operator.
+var a = 12;
+var b = 30;
+console.log(a * b);
 
 // Welcome Alert.
 window.alert("Welcome! Let's Celebrate Birthdays!");
