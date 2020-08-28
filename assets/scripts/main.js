@@ -21,5 +21,5 @@ function welcomeButton() {
 	} else {
 		txt = 'You must enter either "Yes" or "No" exactly as you see it here.';
 	}
-	document.getElementById('birthdayWishesButton').innerHTML = txt;
+	document.getElementById('birthdayWishes').innerHTML = txt;
 }

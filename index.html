@@ -1,9 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="description" content="JavaScript Basics" />
+		<title>Rubric1-Happy Birthday!</title>
+		<script id="todaysDate">
+			var date = new Date();
+			document.write('Today is ' + date + '.');
+		</script>
+		<link rel="stylesheet" href="assets/styles/main.css" />
 	</head>
-	<body></body>
+
+	<body>
+		<main>
+			<button onclick="welcomeButton()">Start By Clicking Here</button>
+			<p id="birthdayWishes"></p>
+			<script src="assets/scripts/main.js"></script>
+		</main>
+	</body>
 </html>

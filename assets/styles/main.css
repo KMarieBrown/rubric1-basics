@@ -1,3 +1,37 @@
-:date {
+* {
+    margin: 0;
+	font-size: 40px;
+    align-content: center;
+    text-align: center;
+}
 
+body {
+    padding-top: 15px;
+    background-image: url(../images/pexels-polina-tankilevitch-3905850.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+    background-color: #ffffa8;
+}
+
+main {
+    /* padding: 100px; */
+	font-size: 22px;
+	color: blueviolet;
+}
+
+Button {
+    border-radius: 15%;
+    border-width: 8px 13px;
+    border-color: rgb(163, 112, 199);
+    color: black;
+    background-color: #ffdaf9;
+    width: 450px;
+    height: 65px;
+    margin: 15px 0px 450px 0px;
+}
+
+#birthdayWishes {
+    padding: 15px 0px;
+    font-size: 76px;
 }
