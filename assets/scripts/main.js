@@ -6,10 +6,6 @@ console.log('This sentence is a test for my main JS file.');
 // Welcome Alert.
 window.alert("Welcome! Let's Celebrate Birthdays!");
 
-// Add today's date to the page.
-// var date = new Date();
-// document.write('Today is ' + date);
-
 // Prompts the question, "Is today your birthday".
 function welcomeButton() {
 	var txt;
